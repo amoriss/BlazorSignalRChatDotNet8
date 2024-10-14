@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\amori\\Original\\BlazorSignalRChatDotNet8\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74E3B2EC-15E7-43CD-B2CC-453512F07B67}|BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8.Client\\BlazorSignalRChatDotNet8.Client.csproj|c:\\users\\amori\\original\\blazorsignalrchatdotnet8\\blazorsignalrchatdotnet8\\blazorsignalrchatdotnet8.client\\pages\\chat.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74E3B2EC-15E7-43CD-B2CC-453512F07B67}|BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8.Client\\BlazorSignalRChatDotNet8.Client.csproj|solutionrelative:blazorsignalrchatdotnet8\\blazorsignalrchatdotnet8.client\\pages\\chat.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74E3B2EC-15E7-43CD-B2CC-453512F07B67}|BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8.Client\\BlazorSignalRChatDotNet8.Client.csproj|c:\\users\\amori\\original\\blazorsignalrchatdotnet8\\blazorsignalrchatdotnet8\\blazorsignalrchatdotnet8.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74E3B2EC-15E7-43CD-B2CC-453512F07B67}|BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8.Client\\BlazorSignalRChatDotNet8.Client.csproj|solutionrelative:blazorsignalrchatdotnet8\\blazorsignalrchatdotnet8.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41F1E12E-A3D1-477B-9A1A-846D4EB2CF3D}|BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8.csproj|c:\\users\\amori\\original\\blazorsignalrchatdotnet8\\blazorsignalrchatdotnet8\\blazorsignalrchatdotnet8\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41F1E12E-A3D1-477B-9A1A-846D4EB2CF3D}|BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8.csproj|solutionrelative:blazorsignalrchatdotnet8\\blazorsignalrchatdotnet8\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41F1E12E-A3D1-477B-9A1A-846D4EB2CF3D}|BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8.csproj|c:\\users\\amori\\original\\blazorsignalrchatdotnet8\\blazorsignalrchatdotnet8\\blazorsignalrchatdotnet8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F1E12E-A3D1-477B-9A1A-846D4EB2CF3D}|BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8.csproj|solutionrelative:blazorsignalrchatdotnet8\\blazorsignalrchatdotnet8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41F1E12E-A3D1-477B-9A1A-846D4EB2CF3D}|BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8.csproj|c:\\users\\amori\\original\\blazorsignalrchatdotnet8\\blazorsignalrchatdotnet8\\blazorsignalrchatdotnet8\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F1E12E-A3D1-477B-9A1A-846D4EB2CF3D}|BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8.csproj|solutionrelative:blazorsignalrchatdotnet8\\blazorsignalrchatdotnet8\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +39,67 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\amori\\Original\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8.Client\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8.Client\\_Imports.razor",
+              "ToolTip": "C:\\Users\\amori\\Original\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8.Client\\_Imports.razor",
+              "RelativeToolTip": "BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8.Client\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T22:01:27.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\amori\\Original\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\amori\\Original\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T21:53:56.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Chat.razor",
+              "DocumentMoniker": "C:\\Users\\amori\\Original\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8.Client\\Pages\\Chat.razor",
+              "RelativeDocumentMoniker": "BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8.Client\\Pages\\Chat.razor",
+              "ToolTip": "C:\\Users\\amori\\Original\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8.Client\\Pages\\Chat.razor*",
+              "RelativeToolTip": "BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8.Client\\Pages\\Chat.razor*",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAkwA4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T21:53:13.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\amori\\Original\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\Program.cs",
+              "ToolTip": "C:\\Users\\amori\\Original\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\Program.cs",
+              "RelativeToolTip": "BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAAB4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T21:42:27.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\amori\\Original\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\amori\\Original\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\Hubs\\ChatHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T21:37:34.696Z"
             }
           ]
         },

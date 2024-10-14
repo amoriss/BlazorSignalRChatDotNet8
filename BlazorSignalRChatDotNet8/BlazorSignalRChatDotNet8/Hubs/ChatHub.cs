@@ -1,5 +1,11 @@
-﻿namespace BlazorSignalRChatDotNet8.Hubs;
+﻿using Microsoft.AspNetCore.SignalR;
 
-public class ChatHub
+namespace BlazorSignalRChatDotNet8.Hubs;
+
+public class ChatHub : Hub
 {
+    public async Task SendMessage(string user, string message)
+    {
+        await Clients.All.SendAsync("ReceiveMessage", user, message);
+    }
 }
