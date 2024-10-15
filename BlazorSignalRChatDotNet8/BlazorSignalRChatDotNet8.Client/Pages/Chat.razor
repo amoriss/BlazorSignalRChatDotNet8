@@ -4,10 +4,17 @@
 
 <h3>Chat</h3>
 
-@if (IsConnected)
+@if(string.IsNullOrWhiteSpace(username))
 {
-    <input type="text" @bind="userInput" />
-    <input type="text" @bind="messageInput" />
+    <input type="text" placeholder="Enter your username" @bind="username" />
+    <button @onclick="SetUsername">Set Username</button>
+}
+
+else {
+
+@if (IsConnected)
+{    
+    <input type="text" placeholder="Enter your message" @bind="messageInput" />
     <button @onclick="Send">Send</button>
     <ul id="messagesList">
         @foreach (var message in messages)
@@ -22,10 +29,13 @@ else
     <p>Connecting...</p>
 }
 
+}
+
 @code {
     private HubConnection _hubConnection;
     private List<string> messages = new List<string>();
-    private string userInput;
+    private string username = string.Empty;
+    //private string userInput;
     private string messageInput;
 
     protected override async Task OnInitializedAsync()
@@ -45,7 +55,15 @@ else
 
     }
 
-    Task Send() => _hubConnection.SendAsync("SendMessage", userInput, messageInput);
+    private async Task Send() 
+    {
+       await _hubConnection.SendAsync("SendMessage", username, messageInput);
+        messageInput = string.Empty;
+
+    }
+        
+
+    private void SetUsername() => username = username.Trim();
 
     public bool IsConnected => _hubConnection.State == HubConnectionState.Connected;
 }
