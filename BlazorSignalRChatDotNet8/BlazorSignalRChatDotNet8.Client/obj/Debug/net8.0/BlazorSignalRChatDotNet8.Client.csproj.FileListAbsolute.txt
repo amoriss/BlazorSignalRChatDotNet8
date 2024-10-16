@@ -849,7 +849,9 @@ C:\Users\amori\Original\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8\Blazor
 C:\Users\amori\Original\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8.Client\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BlazorSignalRChatDotNet8.Client.props
 C:\Users\amori\Original\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8.Client\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BlazorSignalRChatDotNet8.Client.props
 C:\Users\amori\Original\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8.Client\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\amori\Original\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8.Client\obj\Debug\net8.0\scopedcss\Pages\Chat.razor.rz.scp.css
 C:\Users\amori\Original\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8.Client\obj\Debug\net8.0\scopedcss\bundle\BlazorSignalRChatDotNet8.Client.styles.css
+C:\Users\amori\Original\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8.Client\obj\Debug\net8.0\scopedcss\projectbundle\BlazorSignalRChatDotNet8.Client.bundle.scp.css
 C:\Users\amori\Original\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8.Client\obj\Debug\net8.0\compressed\t96d0m7c5d.gz
 C:\Users\amori\Original\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8.Client\obj\Debug\net8.0\compressed\n2xytcjc16.gz
 C:\Users\amori\Original\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8.Client\obj\Debug\net8.0\compressed\bj79ah3rzm.gz
@@ -1067,5 +1069,3 @@ C:\Users\amori\Original\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8\Blazor
 C:\Users\amori\Original\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8.Client\obj\Debug\net8.0\refint\BlazorSignalRChatDotNet8.Client.dll
 C:\Users\amori\Original\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8.Client\obj\Debug\net8.0\BlazorSignalRChatDotNet8.Client.pdb
 C:\Users\amori\Original\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8.Client\obj\Debug\net8.0\ref\BlazorSignalRChatDotNet8.Client.dll
-C:\Users\amori\Original\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8.Client\obj\Debug\net8.0\scopedcss\Pages\Chat.razor.rz.scp.css
-C:\Users\amori\Original\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8.Client\obj\Debug\net8.0\scopedcss\projectbundle\BlazorSignalRChatDotNet8.Client.bundle.scp.css
