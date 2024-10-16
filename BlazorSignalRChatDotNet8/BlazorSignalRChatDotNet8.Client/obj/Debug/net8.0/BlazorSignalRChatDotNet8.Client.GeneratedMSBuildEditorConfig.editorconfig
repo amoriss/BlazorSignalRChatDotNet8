@@ -22,10 +22,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\amori\Original\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8\BlazorSignalRChatDotNet8.Client
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/amori/Original/BlazorSignalRChatDotNet8/BlazorSignalRChatDotNet8/BlazorSignalRChatDotNet8.Client/Pages/Chat.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhdC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/amori/Original/BlazorSignalRChatDotNet8/BlazorSignalRChatDotNet8/BlazorSignalRChatDotNet8.Client/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -33,3 +29,7 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/amori/Original/BlazorSignalRChatDotNet8/BlazorSignalRChatDotNet8/BlazorSignalRChatDotNet8.Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amori/Original/BlazorSignalRChatDotNet8/BlazorSignalRChatDotNet8/BlazorSignalRChatDotNet8.Client/Pages/Chat.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-eday8dag10

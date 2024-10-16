@@ -49,3 +49,28 @@ h1:focus {
 .darker-border-checkbox.form-check-input {
     border-color: #929292;
 }
+
+body {
+}
+
+#messagesContainer {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 5px;
+    border-bottom: 1px solid darkorange;
+}
+
+input[type="text"] {
+    width: calc(100% -80px);
+    margin-right: 10px;
+}

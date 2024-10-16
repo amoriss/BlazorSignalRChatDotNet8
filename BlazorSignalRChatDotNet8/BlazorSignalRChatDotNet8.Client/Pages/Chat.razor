@@ -1,35 +1,43 @@
 ﻿@page "/chat"
 @inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
 @rendermode InteractiveWebAssembly
 
 <h3>Chat</h3>
 
-@if(string.IsNullOrWhiteSpace(username))
+@if (string.IsNullOrWhiteSpace(username))
 {
     <input type="text" placeholder="Enter your username" @bind="username" />
     <button @onclick="SetUsername">Set Username</button>
 }
 
-else {
+
 
 @if (IsConnected)
-{    
+{
+    @if (messages != null)
+    {
+        <div id="messagesContainer">
+        <ul id="messagesList">
+            @foreach (var message in messages)
+            {
+                <li>@message</li>
+            }
+
+        </ul>
+        </div>
+    }
+
+
     <input type="text" placeholder="Enter your message" @bind="messageInput" />
     <button @onclick="Send">Send</button>
-    <ul id="messagesList">
-        @foreach (var message in messages)
-        {
-            <li>@message</li>
-        }
-
-    </ul>
 }
 else
 {
-    <p>Connecting...</p>
+<p>Connecting...</p>
 }
 
-}
+
 
 @code {
     private HubConnection _hubConnection;
@@ -55,13 +63,17 @@ else
 
     }
 
-    private async Task Send() 
+    private async Task Send()
     {
-       await _hubConnection.SendAsync("SendMessage", username, messageInput);
+        await _hubConnection.SendAsync("SendMessage", username, messageInput);
         messageInput = string.Empty;
 
     }
-        
+
+    private void ScrollToBottom()
+    {
+        JSRuntime.InvokeVoidAsync("scrollToBottom", "messageContainer");
+    }
 
     private void SetUsername() => username = username.Trim();
 

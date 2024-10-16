@@ -1,0 +1,23 @@
+body[b-eday8dag10] {
+}
+
+#messagesContainer[b-eday8dag10] {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+ul[b-eday8dag10] {
+    list-style-type: none;
+}
+li[b-eday8dag10] {
+    padding: 5px;
+    border-bottom: 1px solid darkorange;
+}
+
+input[type="text"][b-eday8dag10] {
+    width: calc(100% -80px);
+    margin-right: 10px;
+}
