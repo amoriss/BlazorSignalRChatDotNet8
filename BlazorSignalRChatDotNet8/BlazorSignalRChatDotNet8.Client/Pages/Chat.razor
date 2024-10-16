@@ -9,6 +9,10 @@
 {
     <input type="text" placeholder="Enter your username" @bind="username"/>
     <button @onclick="SetUsername">Set Username</button>
+    @if(showErrorMessage)
+    {
+        <p style="color: red;">Username Cannot be empty</p>
+    }
 }
 
 else
@@ -46,6 +50,7 @@ else
 
     //private string userInput;
     private string messageInput;
+    private bool showErrorMessage = false;
 
     protected override async Task OnInitializedAsync()
     {
@@ -75,7 +80,20 @@ else
         await JSRuntime.InvokeVoidAsync("scrollToBottom", "messagesContainer");
     }
 
-    private void SetUsername() => username = username.Trim();
+    private void SetUsername()
+    {
+        if(string.IsNullOrWhiteSpace(username))
+        {
+            showErrorMessage = true;
+        }
+        else
+        {
+            showErrorMessage = false; 
+            username = username.Trim();
+        }
+       
+    }
+
 
     public bool IsConnected => _hubConnection.State == HubConnectionState.Connected;
 }

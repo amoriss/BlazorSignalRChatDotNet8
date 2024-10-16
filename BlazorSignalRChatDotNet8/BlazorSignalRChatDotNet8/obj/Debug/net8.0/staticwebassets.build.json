@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "slkLlZMtMIDaPEvcu7sQyufhA2dD+cDLdc2QMNJ7dMo=",
+  "Hash": "TTtgEbc9YhIFq3cTxA/6k/VUXsx9JS91Zn2/ib9yHVI=",
   "Source": "BlazorSignalRChatDotNet8",
   "BasePath": "_content/BlazorSignalRChatDotNet8",
   "Mode": "Default",
@@ -8261,25 +8261,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
-    },
-    {
-      "Identity": "C:\\Users\\amori\\Original\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\wwwroot\\scroll.js",
-      "SourceId": "BlazorSignalRChatDotNet8",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\amori\\Original\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\BlazorSignalRChatDotNet8\\wwwroot\\",
-      "BasePath": "_content/BlazorSignalRChatDotNet8",
-      "RelativePath": "scroll.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\scroll.js"
     }
   ]
 }
