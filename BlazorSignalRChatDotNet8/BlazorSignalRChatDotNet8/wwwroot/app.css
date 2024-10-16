@@ -13,7 +13,7 @@ a, .btn-link {
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 .content {
@@ -58,22 +58,89 @@ body {
     width: 600px;
     overflow-y: auto;
     border: 1px solid black;
-    padding: 10px;
+    padding: 25px;
     margin-bottom: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
+    background-color: lightblue;
+    /*Scroll Bar For Firefox*/
+    scrollbar-width: thin;
+    scrollbar-color: darkorange lightgray;
+    background: linear-gradient(to bottom, lightblue, #258cfb);
 }
+
+    #messagesContainer::-webkit-scrollbar {
+        width: 20px; /* Width of the scrollbar */
+        height: 20px;
+    }
+
+    #messagesContainer::-webkit-scrollbar-thumb {
+        background-color: darkorange;
+        border-radius: 10px;
+    }
+
+        #messagesContainer::-webkit-scrollbar-thumb:hover {
+            background-color: orange;
+        }
+
+    #messagesContainer::-webkit-scrollbar-track {
+        background: lightgray;
+        border-radius: 10px;
+    }
+
+    #messagesContainer::-webkit-scrollbar {
+        border-radius: 10px;
+    }
 
 ul {
     list-style-type: none;
 }
 
 li {
-    padding: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 15px;
     border-bottom: 1px solid darkorange;
     word-wrap: break-word;
+    background-color: lightgray;
+    margin-left: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-size: 0.9rem;
+    /* max-width: 80px;*/
 }
+
+    li:hover {
+        transform: scale(1.02);
+        transition: transform 0.2s;
+    }
 
 input[type="text"] {
     width: calc(100% -80px);
     margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #006bb7;
+    transition: border 0.3s;
+}
+
+    input[type="text"]:focus {
+        border-color: #1b6ec2;
+    }
+
+.username {
+    font-weight: bold;
+    color: #1861ac;
+}
+
+button {
+    border-radius: 10px;
+    padding: 10px 15px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+ol, ul {
+    padding-left: 0;
 }
