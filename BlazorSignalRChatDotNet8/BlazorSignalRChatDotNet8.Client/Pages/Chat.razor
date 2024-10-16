@@ -7,50 +7,51 @@
 
 @if (string.IsNullOrWhiteSpace(username))
 {
-    <input type="text" placeholder="Enter your username" @bind="username" />
+    <input type="text" placeholder="Enter your username" @bind="username"/>
     <button @onclick="SetUsername">Set Username</button>
 }
 
-
-
-@if (IsConnected)
-{
-    @if (messages != null)
-    {
-        <div id="messagesContainer">
-        <ul id="messagesList">
-            @foreach (var message in messages)
-            {
-                <li>@message</li>
-            }
-
-        </ul>
-        </div>
-    }
-
-
-    <input type="text" placeholder="Enter your message" @bind="messageInput" />
-    <button @onclick="Send">Send</button>
-}
 else
 {
-<p>Connecting...</p>
+    @if (IsConnected)
+    {
+        @if (messages != null)
+        {
+            <div id="messagesContainer">
+                <ul id="messagesList">
+                    @foreach (var message in messages)
+                    {
+                        <li>@message</li>
+                    }
+
+                </ul>
+            </div>
+        }
+
+
+        <input type="text" placeholder="Enter your message" @bind="messageInput"/>
+        <button @onclick="Send">Send</button>
+    }
+    else
+    {
+        <p>Connecting...</p>
+    }
 }
-
-
 
 @code {
     private HubConnection _hubConnection;
     private List<string> messages = new List<string>();
+
     private string username = string.Empty;
+
     //private string userInput;
     private string messageInput;
 
     protected override async Task OnInitializedAsync()
     {
         _hubConnection = new HubConnectionBuilder()
-        .WithUrl(NavigationManager.ToAbsoluteUri("/chathub"))
-        .Build();
+            .WithUrl(NavigationManager.ToAbsoluteUri("/chathub"))
+            .Build();
 
         _hubConnection.On<string, string>("ReceiveMessage", (user, message) =>
         {
@@ -60,14 +61,12 @@ else
         });
 
         await _hubConnection.StartAsync();
-
     }
 
     private async Task Send()
     {
         await _hubConnection.SendAsync("SendMessage", username, messageInput);
         messageInput = string.Empty;
-
     }
 
     private void ScrollToBottom()
