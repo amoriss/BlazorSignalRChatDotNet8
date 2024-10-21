@@ -7,9 +7,11 @@
 
 @if (string.IsNullOrWhiteSpace(username))
 {
-    <input type="text" placeholder="Enter your username" @bind="username"/>
-    <button @onclick="SetUsername">Set Username</button>
-    @if(showErrorMessage)
+    <div class="input-group">
+        <input type="text" class="message-input" placeholder="Enter your username" @bind="username" />
+        <button @onclick="SetUsername">Set Username</button>
+    </div>
+    @if (showErrorMessage)
     {
         <p style="color: red;">Username Cannot be empty</p>
     }
@@ -32,9 +34,10 @@ else
             </div>
         }
 
-
-        <input type="text" placeholder="Enter your message" @bind="messageInput"/>
-        <button @onclick="Send">Send</button>
+        <div class="input-group">
+            <input type="text" class="message-input" placeholder="Enter your message" @bind="messageInput" />
+            <button @onclick="Send">Send</button>
+        </div>
     }
     else
     {
@@ -82,16 +85,16 @@ else
 
     private void SetUsername()
     {
-        if(string.IsNullOrWhiteSpace(username))
+        if (string.IsNullOrWhiteSpace(username))
         {
             showErrorMessage = true;
         }
         else
         {
-            showErrorMessage = false; 
+            showErrorMessage = false;
             username = username.Trim();
         }
-       
+
     }
 
 
