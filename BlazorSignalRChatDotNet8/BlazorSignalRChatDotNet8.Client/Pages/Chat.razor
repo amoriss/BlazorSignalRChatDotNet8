@@ -3,7 +3,7 @@
 @inject IJSRuntime JSRuntime
 @rendermode InteractiveWebAssembly
 
-<h3>Chat</h3>
+<h3 style="text-align: center;">Chat</h3>
 
 @if (string.IsNullOrWhiteSpace(username))
 {
@@ -27,7 +27,9 @@ else
                 <ul id="messagesList">
                     @foreach (var message in messages)
                     {
-                        <li>@message</li>
+                        var parts = message.Split(':');
+                        <li><span class="username">@parts[0]:</span>@parts[1]</li>
+                        @* <li>@message</li> *@
                     }
 
                 </ul>

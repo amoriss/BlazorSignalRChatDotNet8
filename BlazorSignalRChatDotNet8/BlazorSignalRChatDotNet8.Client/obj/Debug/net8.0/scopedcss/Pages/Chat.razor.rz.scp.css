@@ -58,3 +58,9 @@ input[type="text"][b-eday8dag10] {
     border-color: #004d40;
     outline: none;
 }
+
+.username[b-eday8dag10] {
+    font-weight: bold;
+    font-size: 1.0rem;
+    color: #1861ac;
+}

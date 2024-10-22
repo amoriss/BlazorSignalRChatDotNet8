@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazorSignalRChatDotNet8.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae64c668548a7f26928abf575680a41d99987778")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec3fea081d20b9e1a28a6c503292260f61f820c6")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorSignalRChatDotNet8.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorSignalRChatDotNet8.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
