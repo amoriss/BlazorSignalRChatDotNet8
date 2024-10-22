@@ -1,6 +1,6 @@
 ﻿@page "/chat"
-@inject NavigationManager NavigationManager
-@inject IJSRuntime JSRuntime
+@inject NavigationManager NavigationManager // for URL navigation//
+@inject IJSRuntime JSRuntime  //for JavaScript interop//
 @rendermode InteractiveWebAssembly
 
 <h3 style="text-align: center;">Chat</h3>
@@ -19,7 +19,7 @@
 
 else
 {
-    @if (IsConnected)
+    @if (IsConnected) // check if connection is established
     {
         @if (messages != null)
         {
@@ -48,26 +48,25 @@ else
 }
 
 @code {
-    private HubConnection _hubConnection;
+    private HubConnection _hubConnection; // Connection to chat hub
     private List<string> messages = new List<string>();
 
     private string username = string.Empty;
 
-    //private string userInput;
     private string messageInput;
     private bool showErrorMessage = false;
 
-    protected override async Task OnInitializedAsync()
+    protected override async Task OnInitializedAsync() // Initializes connnection on load
     {
-        _hubConnection = new HubConnectionBuilder()
-            .WithUrl(NavigationManager.ToAbsoluteUri("/chathub"))
+        _hubConnection = new HubConnectionBuilder()  // builds hub connection
+            .WithUrl(NavigationManager.ToAbsoluteUri("/chathub")) //sets hub URL
             .Build();
 
-        _hubConnection.On<string, string>("ReceiveMessage", (user, message) =>
+        _hubConnection.On<string, string>("ReceiveMessage", (user, message) => // listens for incoming message
         {
             var encodedMsg = $"{user}: {message}";
             messages.Add(encodedMsg);
-            InvokeAsync(StateHasChanged);
+            InvokeAsync(StateHasChanged); // triggers UI update
             ScrollToBottom();
         });
 
@@ -80,9 +79,9 @@ else
         messageInput = string.Empty;
     }
 
-    private async Task ScrollToBottom()
+    private async Task ScrollToBottom()  // automatic scroll to bottom of messages
     {
-        await JSRuntime.InvokeVoidAsync("scrollToBottom", "messagesContainer");
+        await JSRuntime.InvokeVoidAsync("scrollToBottom", "messagesContainer"); // calls JS to scroll
     }
 
     private void SetUsername()
@@ -100,5 +99,5 @@ else
     }
 
 
-    public bool IsConnected => _hubConnection.State == HubConnectionState.Connected;
+    public bool IsConnected => _hubConnection.State == HubConnectionState.Connected; // checks connection status
 }

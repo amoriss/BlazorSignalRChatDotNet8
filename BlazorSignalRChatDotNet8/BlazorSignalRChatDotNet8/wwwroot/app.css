@@ -115,7 +115,7 @@ li {
         transition: transform 0.2s;
     }
 
-/*input[type="text"] {
+input[type="text"] {
     width: calc(100% -80px);
     margin-right: 10px;
     padding: 10px;
@@ -126,7 +126,7 @@ li {
 
     input[type="text"]:focus {
         border-color: #1b6ec2;
-    }*/
+    }
 
 /*.username {
     font-weight: bold;
